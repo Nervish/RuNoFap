@@ -1,0 +1,24 @@
+.legacy_header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    z-index:1;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.legacy_header span{
+    font-size:1.5em;
+}
+.legacy_header a, .legacy_header a:visited{
+    color: white;
+}
+.legacy_header a:hover{
+    color: black;
+    background-color: cyan;
+}
+.legacy_header div{
+    margin: auto;
+    padding: 0;
+}

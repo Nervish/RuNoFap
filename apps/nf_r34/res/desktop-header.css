@@ -1,0 +1,56 @@
+.legacy_header{
+    font-size: 1.35em;
+}
+.legacy_header a, .legacy_header a:visited{
+    padding: 0.25em;
+}
+
+.legacy_header ul{
+    list-style: none;
+    display: block;
+    margin:0;
+    padding:0;
+}
+.legacy_header ul:after{
+    display: block;
+    float: none;
+    content: ' ';
+    clear: both;
+}
+.legacy_header ul.menu > li{
+    float: left;
+    position: relative;
+}
+.legacy_header ul.menu > li > a{
+    display: block;
+    color: #fff;
+    padding: 0.3em;
+    text-decoration: none;
+}
+.legacy_header ul.menu > li > a:hover{
+    background-color: cyan;
+}
+.legacy_header ul.submenu{
+    position: absolute;
+    width: 10em;
+    /*top: 1.75em;*/
+    left:0;
+    display: none;
+    background-color: black;
+}
+.legacy_header ul.submenu > li{
+    display: block;
+}
+.legacy_header ul.submenu > li > a{
+    display: block;
+    text-decoration: none;
+    padding: 0.2em;
+    color: #ffffff;
+    background-color: #000000;
+}
+.legacy_header ul.submenu > li > a:hover{
+    background-color: cyan;
+}
+.legacy_header ul.menu > li:hover > ul.submenu{
+    display: block;
+}

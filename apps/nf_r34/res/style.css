@@ -1,0 +1,79 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#main{
+  /*background-color: #e8e8e7;*/
+  padding: 1.5em 7px;
+}
+
+@media only screen and (max-width:767px) {
+  .war-stat {
+    padding: 0;
+  }.war-stat-table {
+    margin-top: 15px;
+  }.war-stat-table__item {
+    width: calc(99.9% * 3/12);
+  }.war-stat-table__item--category,
+  .war-stat-table__item--corner {
+    width: calc(99.9% * 6/12);
+  }.post {
+    padding: 10px;
+  }.post__info {
+    flex-wrap: wrap;
+  }.post__author-wrapper,
+  .post__number {
+    margin-right: 10px;
+  }.post__text {
+    font-size: 16px;
+    line-height: 25px;
+  }.faq {
+    padding-right: 5px;
+    padding-left: 5px;
+  }.war-report {
+    margin-top: 15px;
+  }
+}@media only screen and (min-width:424px) {
+  .post-options-wrapper {
+    width: 100%;
+
+    justify-content: flex-end;
+  }.post__date {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}@media only screen and (max-width:423px) {
+  .post-options-wrapper {
+    width: 50%;
+
+    justify-content: flex-end;
+  }.post__date {
+    font-size: 11px;
+
+    width: 50%;
+  }
+}@media only screen and (max-width:389px) {
+  .post-options-wrapper {
+    width: 100%;
+
+    justify-content: flex-end;
+  }.post__date {
+    font-size: 11px;
+
+    width: 100%;
+
+    text-align: right;
+  }
+}@media only screen and (max-width:469px) {
+  .war-report {
+    flex-direction: column;
+  }.war-report__button {
+    width: 100%;
+  }.war-report__button--check-in {
+    order: 2;
+  }.war-report__button--casualty {
+    margin-bottom: 5px;
+  }
+}
+
