@@ -1,0 +1,6 @@
+.list-container__row_head {
+  background-color: rgba(102, 187, 106, .6);
+}
+.list-container__row_head:hover {
+  background-color: rgba(102, 187, 106, .7);
+}

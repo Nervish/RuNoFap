@@ -1,0 +1,12 @@
+.list-container__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  border-bottom: solid 1px black;
+}
+/*.list-container__row:hover {
+  background-color: rgba(100, 100, 100, 0.2);
+}*/

@@ -1,0 +1,11 @@
+.answer {
+  /*width: 90%;*/
+  max-width: 720px;
+  border: dashed 1px black;
+  background-color: rgba(0, 199, 254, 0.25);
+  padding: 0.7em;
+  text-align: left;
+}
+.answer:hover {
+  background-color: rgba(0, 199, 254, 0.35);
+}

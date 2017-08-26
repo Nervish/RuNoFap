@@ -1,0 +1,6 @@
+.comment {
+  width: 95%;
+  max-width: 640px;
+  border-left: dashed 2px black;
+  padding: 0.7em;
+}

@@ -1,0 +1,6 @@
+.hidden-container__element {
+  width: auto;
+  /*max-width: 360px;*/
+  padding: 0.2em 0.3em;
+  justify-content: center;
+}

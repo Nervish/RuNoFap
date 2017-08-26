@@ -1,0 +1,18 @@
+.main{
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  margin: 0.3em 0.3em 0.9em 0.3em;
+  padding: 0.15em;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.main > *{
+  margin: auto;
+}
+.main_2left{
+  justify-content: left;
+}
+.main_center{
+  justify-content: center;
+}

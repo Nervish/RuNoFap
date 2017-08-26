@@ -1,0 +1,13 @@
+.list-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top: solid 1px;
+  border-right: solid 1px;
+  border-left: solid 1px;
+  /*width: auto;*/
+  /*max-width: 300px;*/
+  text-align: center; /* Выравнивание ставится для каждого элемента через 
+  justify-content, но некоторые ники с неправильной кодировкой игнорируют 
+  то свойство, поэтому оставил это.*/
+}

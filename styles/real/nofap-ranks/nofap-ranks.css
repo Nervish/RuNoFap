@@ -1,0 +1,135 @@
+.nofap-ranks{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top: solid 1px;
+  border-right: solid 1px;
+  border-left: solid 1px;
+  text-align: center; /* Выравнивание ставится для каждого элемента через 
+  justify-content, но некоторые ники с неправильной кодировкой игнорируют 
+  то свойство, поэтому оставил это.*/
+}
+.nofap-ranks__row{
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/ /* Ломает дизайн при определенном масштабировании. */
+  justify-content: center;
+  border-bottom: solid 1px;
+  width: 100%;
+}
+.nofap-ranks__row:hover{
+  background-color: rgba(100, 100, 100, 0.4);
+}
+.nofap-ranks__row_mynick{
+  background-color: rgba(10,193, 37, 0.35);
+}
+.nofap-ranks__row_mynick:hover{
+  background-color: rgba(10,193, 37, 0.5);
+}
+.nofap-ranks__row_head{
+  background-color: rgba(0, 27, 220, 0.3);
+}
+.nofap-ranks__row_head:hover{
+  background-color: rgba(0, 27, 220, 0.4);
+}
+.nofap-ranks__element{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto; /* Для длинных ников без пробелов flex-wrap: wrap
+  не работает, добавил overflow:auto */
+  padding: 0.45em 0.3em 0.45em 0.3em;
+}
+.nofap-ranks__element_number{
+  width: 60px;
+  background-color: rgba(200, 200, 200, 0.3);
+  border-right: solid 1px;
+}
+.nofap-ranks__element_nick{
+  width: 360px;
+  background-color: rgba(150, 150, 150, 0.3);
+  border-right: solid 1px;
+}
+.nofap-ranks__element_period{
+  width: 80px;
+  background-color: rgba(200, 200, 200, 0.3);
+  border-right: solid 1px;
+}
+.nofap-ranks__element_rank{
+  width: 240px;
+  background-color: rgba(150, 150, 150, 0.3);;
+}
+/*.nofap-ranks__head_number, .nofap-ranks__head_period{
+  background-color: rgba(102, 187, 106, .6);
+}
+.nofap-ranks__head_nick, .nofap-ranks__head_rank{
+  background-color: rgba(255, 167, 38, .6);
+}*/
+
+/* max-width: 840px */
+@media only screen and (min-width: 521px) and (max-width: 840px) {
+  .nofap-ranks{
+    max-width: 480px;
+  }
+  .nofap-ranks__element_nick {
+    width: 190px;
+  }
+  .nofap-ranks__element_rank {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .nofap-ranks__row{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(150, 150, 150, 0.3)
+  }
+  .nofap-ranks{
+    width: 96%;
+  }
+  .nofap-ranks__row_head {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nofap-ranks__row_head{
+    background-color: rgba(0, 27, 220, 0.3);
+  }
+  .nofap-ranks__row_head:hover{
+    background-color: rgba(0, 27, 220, 0.4);
+  }
+  .nofap-ranks__element_number{
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .nofap-ranks__element_nick{
+    width: calc(96% - 100px);
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  .nofap-ranks__element_period{
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .nofap-ranks__element_rank{
+    width: calc(96% - 100px);
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  .nofap-ranks__element {
+    /*width: auto;*/
+    border: solid 0;
+  }
+  .nofap-ranks__row_mynick{
+    background-color: rgba(10,193, 37, 0.35);
+  }
+  .nofap-ranks__row_mynick:hover{
+    background-color: rgba(10,193, 37, 0.5);
+  }
+}
+.nofap-ranks__link{
+  text-decoration: none;
+  color: #191970;
+}
+.nofap-ranks__link:hover{
+  text-decoration: underline;
+}

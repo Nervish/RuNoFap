@@ -1,0 +1,6 @@
+.list-container__row_theme_spring {
+  background-color: rgba(102, 187, 106, .6);
+}
+.list-container__row_theme_spring:hover {
+  background-color: rgba(102, 187, 106, .7);
+}

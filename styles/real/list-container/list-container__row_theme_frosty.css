@@ -1,0 +1,6 @@
+.list-container__row_theme_frosty {
+  background-color: rgba(17, 33, 213, 0.6);
+}
+.list-container__row_theme_frosty:hover {
+  background-color: rgba(17, 33, 213, 0.7);
+}

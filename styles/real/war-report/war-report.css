@@ -1,0 +1,37 @@
+.war-report {
+  display: flex;
+
+  max-width: 500px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+
+  justify-content: center;
+}.war-report__button {
+  font-size: 15px;
+  font-weight: bold;
+
+  width: calc(99% * 2/5);
+  margin-right: 10px;
+  padding: 10px 0;
+
+  transition: background-color 200ms;
+  text-align: center;
+  text-decoration: none;
+
+  color: hsla(0,0%,100%,0.94);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  box-shadow: 0 2px 9px -4px #000;
+  text-shadow: 0 0 8px rgba(0,0,0,0.27);
+}.war-report__button:last-child {
+  margin-right: 0;
+}.war-report__button--check-in {
+  background-color: #4caf50;
+}.war-report__button--check-in:hover {
+  background-color: rgba(76,175,80,0.9);
+}.war-report__button--casualty {
+  background-color: #ff5722;
+}.war-report__button--casualty:hover {
+  background-color: rgba(255,87,34,0.9);
+}

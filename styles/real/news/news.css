@@ -1,0 +1,10 @@
+.news {
+  width: 100%;
+  max-width: 740px;
+  border: dashed 1px black;
+  background-color: rgba(255, 255, 0, 0.25);
+  padding: 0.7em;
+}
+.news:hover {
+  background-color: rgba(255, 255, 0, 0.35);
+}

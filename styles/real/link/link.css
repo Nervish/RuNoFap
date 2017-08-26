@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  color: #3f3ccb;
+}
+.link:visited{
+  text-decoration: none;
+  color: #3f3ccb;
+}
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+.list-container__element {
+  padding: 9px;
+  overflow: auto;
+  width: 95%;
+  /*width: auto;*/
+  /*width: 240px;*/
+}

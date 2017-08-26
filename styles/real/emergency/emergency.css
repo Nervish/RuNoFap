@@ -1,0 +1,12 @@
+.emergency, .emergency:link, .emergency:visited{
+  background-color: #a60a0a;
+  color: white;
+  padding: 11px;
+  font-weight: bold;
+  border: 3px solid black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.emergency:hover{
+  background-color: red;
+}
