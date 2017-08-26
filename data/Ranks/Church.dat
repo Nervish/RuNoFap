@@ -1,0 +1,25 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Отступник';
+    elseif(!$r) return 'Школяр';
+    elseif($r <= 3) return 'Мирянин';
+    elseif($r <= 7) return 'Священоносец';
+    elseif($r <= 11) return 'Звонарь';
+    elseif($r <= 13) return 'Певчий';
+    elseif($r <= 17) return 'Алтарник';
+    elseif($r <= 23) return 'Псаломщик';
+    elseif($r <= 30) return 'Староста храма';
+    elseif($r <= 60) return 'Трудник';
+    elseif($r <= 90) return 'Послушник';
+    elseif($r <= 150) return 'Монах';
+    elseif($r <= 210) return 'Иеродиакон';
+    elseif($r <= 270) return 'Архидиакон';
+    elseif($r <= 330) return 'Иеромонах';
+    elseif($r <= 390) return 'Игумен';
+    elseif($r <= 450) return 'Архимандрит';
+    elseif($r <= 510) return 'Епископ';
+    elseif($r <= 570) return 'Архиепископ';
+    elseif($r <= 729) return 'Митрополит';
+    else return 'Патриарх';
+}

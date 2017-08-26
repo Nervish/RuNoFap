@@ -1,0 +1,26 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Дезертир';
+    elseif(!$r) return 'Новобранец';
+    elseif($r <= 1) return 'Рядовой';
+    elseif($r <= 2) return 'Ефрейтор';
+    elseif($r <= 4) return 'Мл. сержант';
+    elseif($r <= 7) return 'Сержант';
+    elseif($r <= 10) return 'Ст. сержант';
+    elseif($r <= 2*7) return 'Старшина';
+    elseif($r <= 3*7) return 'Прапорщик';
+    elseif($r <= 1*30) return 'Ст. прапорщик';
+    elseif($r <= 1.5*30) return 'Мл. лейтенант';
+    elseif($r <= 2*30) return 'Лейтенант';
+    elseif($r <= 3*30) return 'Ст. лейтенант';
+    elseif($r <= 4*30) return 'Капитан';
+    elseif($r <= 5*30) return 'Майор';
+    elseif($r <= 6*30) return 'Подполковник';
+    elseif($r <= 7*30) return 'Полковник';
+    elseif($r <= 8*30) return 'Генерал-майор';
+    elseif($r <= 10*30) return 'Генерал-лейтенант';
+    elseif($r <= 365) return 'Генерал-полковник';
+    elseif($r <= 365+3*30) return 'Генерал армии';
+    else return 'Маршал';
+}

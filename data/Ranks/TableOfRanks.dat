@@ -1,0 +1,20 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Юродивый';
+    elseif(!$r) return 'Крестьянин';
+    elseif($r <= 3) return 'Староста деревни';
+    elseif($r <= 5) return 'Коллежский регистратор';
+    elseif($r <= 7) return 'Провинциальный секретарь';
+    elseif($r <= 13) return 'Губернский секретарь';
+    elseif($r <= 23) return 'Коллежский секретарь';
+    elseif($r <= 37) return 'Титулярный советник';
+    elseif($r <= 53) return 'Коллежский ассессор';
+    elseif($r <= 79) return 'Надворный советник';
+    elseif($r <= 113) return 'Коллежский советник';
+    elseif($r <= 239) return 'Статский советник';
+    elseif($r <= 313) return 'Оберпрокурор';
+    elseif($r <= 337) return 'Тайный советник';
+    elseif($r <= 410) return 'Действ. тайный советник';
+    else return 'Канцлер';
+}

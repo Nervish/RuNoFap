@@ -1,0 +1,21 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Сервочереп';
+    elseif(!$r) return 'Сервитор';
+    elseif($r <= 2) return 'Скитарий';
+    elseif($r <= 4) return 'Гвардеец';
+    elseif($r <= 7) return 'Темпестус';
+    elseif($r <= 14) return 'Скаут';
+    elseif($r <= 30) return 'Опустошитель';
+    elseif($r <= 45) return 'Космодесантник';
+    elseif($r <= 60) return 'Терминатор';
+    elseif($r <= 75) return 'Капеллан';
+    elseif($r <= 90) return 'Библиарий';
+    elseif($r <= 120) return 'Брат-капитан';
+    elseif($r <= 180) return 'Дредноут';
+    elseif($r <= 210) return 'Лорд-инквизитор';
+    elseif($r <= 270) return 'Кустодес';
+    elseif($r <= 364) return 'Примарх';
+    else return 'Император человечества';
+}

@@ -1,0 +1,32 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Руссиш';
+    elseif(!$r) return 'Волонтер';
+    elseif($r >= 420) return 'Рейхсфюрер';
+    elseif($r >= 399) return 'Оберстгруппенфюрер';
+    elseif($r >= 378) return 'Обергруппенфюрер';
+    elseif($r >= 357) return 'Группенфюрер';
+    elseif($r >= 336) return 'Бригадефюрер';
+    elseif($r >= 315) return 'Оберфюрер';
+    elseif($r >= 294) return 'Штандартенфюрер';
+    elseif($r >= 273) return 'Оберштурмбаннфюре';
+    elseif($r >= 252) return 'Штурмбаннфюрер';
+    elseif($r >= 231) return 'Гауптштурмфюрер';
+    elseif($r >= 210) return 'Оберштурмфюрер';
+    elseif($r >= 189) return 'Унтерштурмфюрер';
+    elseif($r >= 168) return 'Штурмшарфюрер';
+    elseif($r >= 147) return 'Гауптшарфюрер';
+    elseif($r >= 126) return 'Штандартеноберюнкер';
+    elseif($r >= 105) return 'Обершарфюрер';
+    elseif($r >= 96) return 'Штандартенюнкер';
+    elseif($r >= 84) return 'Шарфюрер';
+    elseif($r >= 63) return 'Оберюнкер';
+    elseif($r >= 48) return 'Унтершарфюрер';
+    elseif($r >= 42) return 'Юнкер';
+    elseif($r >= 24) return 'Роттенфюрер';
+    elseif($r >= 21) return 'Штурмманн';
+    elseif($r >= 12) return 'Обершутце';
+    elseif($r >= 7) return 'СС-манн';
+    elseif($r >= 1) return 'Анвертер';
+}

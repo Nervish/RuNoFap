@@ -1,0 +1,21 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Главный по параше';
+    elseif(!$r) return 'Опущенный';
+    elseif($r <= 1) return 'Фуфлыжник';
+    elseif($r <= 3) return 'Шнырь';
+    elseif($r <= 5) return 'Чухан';
+    elseif($r <= 7) return 'Чёрт';
+    elseif($r <= 13) return 'Шестерка';
+    elseif($r <= 20) return 'Шерстяной';
+    elseif($r <= 40) return 'Мужик';
+    elseif($r <= 80) return 'Двигающийся';
+    elseif($r <= 130) return 'Стремяга';
+    elseif($r <= 180) return 'Приблатнённый';
+    elseif($r <= 210) return 'Блатной';
+    elseif($r <= 240) return 'Положенец';
+    elseif($r <= 300) return 'Пахан';
+    elseif($r < 365) return 'Смотрящий';
+    else return 'Вор в законе';
+}

@@ -1,0 +1,16 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Чумной';
+    elseif($r <= 2) return 'Крестьянин';
+    elseif($r <= 7) return 'Оруженосец';
+    elseif($r <= 21) return 'Рыцарь';
+    elseif($r <= 35) return 'Барон';
+    elseif($r <= 60) return 'Виконт';
+    elseif($r <= 90) return 'Граф';
+    elseif($r <= 120) return 'Маркиз';
+    elseif($r <= 180) return 'Герцог';
+    elseif($r <= 240) return 'Князь';
+    elseif($r <= 364) return 'Король';
+    else return 'Император';
+}

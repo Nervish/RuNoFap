@@ -1,0 +1,23 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Червь-пидор';
+    elseif(!$r) return 'Сосницкий';
+    elseif($r <= 1) return 'Зеленый';
+    elseif($r <= 3) return 'ОП';
+    elseif($r <= 6) return 'Аутист';
+    elseif($r <= 13) return 'Ретард';
+    elseif($r <= 21) return 'Ньюфаг';
+    elseif($r <= 44) return 'Корзиночка';
+    elseif($r <= 59) return 'Сыч';
+    elseif($r <= 74) return 'Омеган';
+    elseif($r <= 89) return 'Хиккан';
+    elseif($r <= 119) return 'Битард';
+    elseif($r <= 179) return 'Анонимус';
+    elseif($r <= 209) return 'Альфач';
+    elseif($r <= 249) return 'Олдфаг';
+    elseif($r <= 299) return 'Мочератор';
+    elseif($r <= 399) return '300к/наносек кун';
+    elseif($r <= 554) return 'Виталик';
+    else return 'Абу';
+}

@@ -1,0 +1,15 @@
+<?php
+
+function rank(&$r) {
+    if($r == -1) return 'Russisch Hund';
+    elseif(!$r) return 'Untermensch';
+    elseif($r <= 3) return 'Hilfspolizei';
+    elseif($r <= 7) return 'Schuetze';
+    elseif($r <= 21) return 'Oberscharführer';
+    elseif($r <= 50) return 'Sturmbannfuhrer';
+    elseif($r <= 90) return 'Standartenführer';
+    elseif($r <= 150) return 'Gruppenführer';
+    elseif($r <= 240) return 'Reichsführer';
+    elseif($r <= 365) return 'Führer';
+    else return 'Ubermensch';
+}
